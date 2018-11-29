@@ -14,7 +14,7 @@ all : $(NAME)
 
 $(NAME) :
 	mv main.c main
-	clang -Wall -Wextra -Werror -c *.c
+	gcc -Wall -Wextra -Werror -c *.c
 	ar rc $(NAME) *.o
 	mv main main.c
 clean :
