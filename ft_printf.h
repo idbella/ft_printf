@@ -6,7 +6,7 @@
 /*   By: sid-bell <sid-bell@student.1337.ma>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/12/02 02:29:44 by sid-bell          #+#    #+#             */
-/*   Updated: 2018/12/10 02:51:16 by sid-bell         ###   ########.fr       */
+/*   Updated: 2018/12/10 03:18:55 by sid-bell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 # include <stdarg.h>
 # include <unistd.h>
 # include <stdio.h>
-# include "libft/libft.h"
+# include "libft.h"
 # define ABS(x) (x < 0 ? -x : x)
 
 typedef struct	s_param
