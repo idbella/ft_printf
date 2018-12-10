@@ -13,7 +13,7 @@
 NAME=libftprintf.a
 all : $(NAME)
 $(NAME) :
-	clang -Wall -Wextra -Werror -c *.c
+	gcc -Wall -Wextra -Werror -c *.c
 	ar rc $(NAME) *.o
 clean :
 	rm -rf *.o
